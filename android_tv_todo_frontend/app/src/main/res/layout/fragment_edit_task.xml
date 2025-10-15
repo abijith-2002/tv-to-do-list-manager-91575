@@ -16,7 +16,7 @@
             android:id="@+id/lblHeader"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Add Task"
+            android:text="@string/add_task_header"
             android:textStyle="bold"
             android:textSize="26sp"
             android:textColor="@color/textPrimary" />
@@ -24,7 +24,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Title"
+            android:text="@string/title_label"
             android:textStyle="bold"
             android:textColor="@color/textPrimary"
             android:layout_marginTop="16dp" />
@@ -33,15 +33,17 @@
             android:id="@+id/inputTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="@string/title_hint"
             android:focusable="true"
             android:focusableInTouchMode="true"
             android:backgroundTint="@color/surfaceColor"
-            android:textColor="@color/textPrimary" />
+            android:textColor="@color/textPrimary"
+            android:textColorHint="@color/textPrimary" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Description"
+            android:text="@string/description_label"
             android:textStyle="bold"
             android:textColor="@color/textPrimary"
             android:layout_marginTop="16dp" />
@@ -50,16 +52,18 @@
             android:id="@+id/inputDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="@string/description_hint"
             android:focusable="true"
             android:focusableInTouchMode="true"
             android:backgroundTint="@color/surfaceColor"
-            android:textColor="@color/textPrimary" />
+            android:textColor="@color/textPrimary"
+            android:textColorHint="@color/textPrimary" />
 
         <TextView
             android:id="@+id/lblDueDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Due: None"
+            android:text="@string/due_date_label"
             android:textColor="@color/textPrimary"
             android:layout_marginTop="16dp" />
 

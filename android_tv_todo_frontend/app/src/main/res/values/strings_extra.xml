@@ -1,3 +1,7 @@
 <resources>
     <string name="filters">Filters</string>
+    <string name="title_label">Title</string>
+    <string name="description_label">Description</string>
+    <string name="title_hint">Enter title</string>
+    <string name="description_hint">Enter description</string>
 </resources>

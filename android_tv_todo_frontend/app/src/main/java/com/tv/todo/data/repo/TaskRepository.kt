@@ -46,8 +46,9 @@ class TaskRepository(private val dao: TaskDao) {
 
     // PUBLIC_INTERFACE
     suspend fun seedIfEmpty() {
-        val current = dao.observeAll().value
-        if (current == null || current.isEmpty()) {
+        // Use direct COUNT query instead of LiveData value to avoid null on cold start
+        val count = dao.count()
+        if (count == 0) {
             val now = System.currentTimeMillis()
             val examples = listOf(
                 Task(title = "Plan week", description = "Outline goals for the week", dueDate = now + 3 * 24 * 3600_000L),

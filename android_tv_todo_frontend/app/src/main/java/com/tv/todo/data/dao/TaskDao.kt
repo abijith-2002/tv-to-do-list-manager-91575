@@ -28,4 +28,8 @@ interface TaskDao {
 
     @Query("DELETE FROM tasks")
     suspend fun deleteAll()
+
+    // PUBLIC_INTERFACE
+    @Query("SELECT COUNT(*) FROM tasks")
+    suspend fun count(): Int
 }

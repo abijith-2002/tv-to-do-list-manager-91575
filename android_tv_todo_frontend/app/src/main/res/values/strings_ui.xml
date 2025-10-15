@@ -1,5 +1,44 @@
 <resources>
     <string name="add_task">Add Task</string>
+    <string name="add_task_header">Add Task</string>
+    <string name="edit_task">Edit Task</string>
     <string name="save">Save</string>
     <string name="delete">Delete</string>
+    <string name="tasks_title">Tasks</string>
+
+    <!-- Filters -->
+    <string name="filter_all">All</string>
+    <string name="filter_open">Open</string>
+    <string name="filter_done">Done</string>
+    <string name="filter_switched">Filter changed</string>
+    <string name="empty_state">No tasks yet. Press Add to create your first task.</string>
+
+    <!-- Accessibility -->
+    <string name="cd_add_task">Add new task</string>
+    <string name="cd_save_task">Save task</string>
+    <string name="cd_delete_task">Delete task</string>
+    <string name="cd_toggle_complete">Toggle complete</string>
+    <string name="cd_status_badge">Status badge</string>
+    <string name="cd_filter_all">Filter All</string>
+    <string name="cd_filter_open">Filter Open</string>
+    <string name="cd_filter_done">Filter Done</string>
+
+    <!-- Errors and confirmations -->
+    <string name="error_title_required">Title is required</string>
+    <string name="confirm_delete_title">Delete task?</string>
+    <string name="confirm_delete_message">This will permanently delete the task.</string>
+
+    <!-- Toasts / Snackbars -->
+    <string name="saved_success">Task saved</string>
+    <string name="saved_failed">Failed to save task</string>
+    <string name="deleted_success">Task deleted</string>
+    <string name="deleted_failed">Failed to delete task</string>
+    <string name="add_task_started">Opening task editor</string>
+    <string name="marked_done">Marked as Done</string>
+    <string name="marked_open">Marked as Open</string>
+
+    <!-- Misc -->
+    <string name="none">None</string>
+    <string name="due_date_label">Due: %1$s</string>
+    <string name="toggle">Toggle</string>
 </resources>

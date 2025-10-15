@@ -11,7 +11,7 @@
         android:id="@+id/title"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Tasks"
+        android:text="@string/tasks_title"
         android:textStyle="bold"
         android:textSize="26sp"
         android:textColor="@color/textPrimary"
@@ -26,10 +26,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/add_task"
+        android:contentDescription="@string/cd_add_task"
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:layout_margin="16dp"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/emptyState"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/empty_state"
+        android:textColor="@color/textPrimary"
+        android:alpha="0.8"
+        android:gravity="center"
+        android:padding="24dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView

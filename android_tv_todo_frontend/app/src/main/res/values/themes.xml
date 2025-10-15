@@ -8,6 +8,7 @@
         <item name="android:textColor">@color/textPrimary</item>
         <item name="android:windowBackground">@color/backgroundColor</item>
         <item name="android:buttonStyle">@style/Widget.TvTodo.Button</item>
+        <item name="materialButtonStyle">@style/Widget.TvTodo.Button</item>
     </style>
 
     <style name="Theme_TvTodo_NoActionBar" parent="Theme.TvTodo">
@@ -16,7 +17,12 @@
     </style>
 
     <style name="Widget.TvTodo.Button" parent="Widget.MaterialComponents.Button">
-        <item name="cornerRadius">20dp</item>
+        <item name="cornerRadius">@dimen/card_corner_radius</item>
         <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/primaryColor</item>
+        <item name="rippleColor">@color/secondaryColor</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
     </style>
 </resources>

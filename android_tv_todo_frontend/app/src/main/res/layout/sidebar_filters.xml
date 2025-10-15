@@ -9,29 +9,48 @@
     android:padding="16dp">
 
     <TextView
+        android:id="@+id/filtersTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Filters"
+        android:text="@string/filters"
         android:textStyle="bold"
         android:textColor="@color/textPrimary"
         android:textSize="18sp" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnFilterAll"
+        style="@style/Widget.TvTodo.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="All"
-        android:layout_marginTop="12dp" />
+        android:text="@string/filter_all"
+        android:contentDescription="@string/cd_filter_all"
+        android:layout_marginTop="12dp"
+        android:checkable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnFilterOpen"
+        style="@style/Widget.TvTodo.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Open"
-        android:layout_marginTop="8dp" />
+        android:text="@string/filter_open"
+        android:contentDescription="@string/cd_filter_open"
+        android:layout_marginTop="8dp"
+        android:checkable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnFilterDone"
+        style="@style/Widget.TvTodo.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Done"
-        android:layout_marginTop="8dp" />
+        android:text="@string/filter_done"
+        android:contentDescription="@string/cd_filter_done"
+        android:layout_marginTop="8dp"
+        android:checkable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
 
 </LinearLayout>

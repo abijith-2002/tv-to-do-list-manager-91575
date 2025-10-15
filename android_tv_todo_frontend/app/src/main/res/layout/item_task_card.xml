@@ -8,7 +8,7 @@
     android:focusable="true"
     android:focusableInTouchMode="true"
     card_view:cardUseCompatPadding="true"
-    card_view:cardCornerRadius="20dp"
+    card_view:cardCornerRadius="@dimen/card_corner_radius"
     card_view:cardBackgroundColor="@color/surfaceColor">
 
     <LinearLayout
@@ -25,7 +25,8 @@
             android:paddingVertical="4dp"
             android:textColor="@android:color/white"
             android:textStyle="bold"
-            android:text="Open" />
+            android:text="Open"
+            android:contentDescription="@string/cd_status_badge" />
 
         <TextView
             android:id="@+id/title"
@@ -54,7 +55,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:text="Toggle" />
+            android:text="@string/toggle"
+            android:contentDescription="@string/cd_toggle_complete" />
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>
