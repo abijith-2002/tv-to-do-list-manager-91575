@@ -1,1 +1,13 @@
-.env
+# Gradle
+/build
+/.gradle
+/local.properties
+
+# Android
+/captures
+.externalNativeBuild
+.cxx
+
+# IntelliJ
+.idea
+*.iml

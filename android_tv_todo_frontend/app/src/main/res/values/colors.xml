@@ -1,0 +1,9 @@
+<resources>
+    <color name="primaryColor">#F97316</color>
+    <color name="secondaryColor">#10B981</color>
+    <color name="successColor">#10B981</color>
+    <color name="errorColor">#EF4444</color>
+    <color name="backgroundColor">#000000</color>
+    <color name="surfaceColor">#1F2937</color>
+    <color name="textPrimary">#FFFFFF</color>
+</resources>

@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.TvTodo" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="android:colorBackground">@color/backgroundColor</item>
+        <item name="colorSurface">@color/surfaceColor</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="android:buttonStyle">@style/Widget.TvTodo.Button</item>
+    </style>
+
+    <style name="Theme_TvTodo_NoActionBar" parent="Theme.TvTodo">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Widget.TvTodo.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">20dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
