@@ -1,0 +1,4 @@
+{
+    "command": "./gradlew installDebug",
+    "working_directory": "/home/kavia/workspace/code-generation/tv-to-do-list-manager-91575/android_tv_todo_frontend"
+}
